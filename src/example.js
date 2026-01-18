@@ -1,6 +1,7 @@
-const unusedVariable = "this is a test";
-console.log("Hello, world!");
-function badFunction() {
-  let number = 42
-  return number
+function goodFunction() {
+  let number = 42;
+  console.log('Hello, world!');
+  return number;
 }
+
+goodFunction();
